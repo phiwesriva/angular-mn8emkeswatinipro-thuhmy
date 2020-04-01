@@ -1,0 +1,84 @@
+<form [formGroup]="advertForm" (ngSubmit)="onSubmit(advertForm.value)">
+<table class="center" style="width:100%">
+  
+<!--<tr>
+   <th colspan="2">Advertise with us</th>
+</tr>-->
+
+<tr align ="center">
+  <th colspan="4"><h2>Prime Advertising Location With Eswatini Proprty Review</h2></th>
+<!--td colspan="9"><img src=""></td>-->
+</tr>
+
+
+<tr align ="center">
+  <td colspan="4"><p>
+Eswatini Property Review is Eswatini's premier property lifestyle magazine. 
+An informative read tailored for property owners and buyers, investors
+and real estate agents, interior designers, architects and various
+property enthusiasts...an advertisers dream advertising channel!
+
+At Eswatini Property Review our primary aim is to
+inform property stakeholders and the country at
+large about proper ty oppor tunities and
+challenges as well.
+Tell your story through our digital media and hard copy print channels via
+our own engaging website and social media platforms oering regular and
+frequent news updates and a wider target audience reach.Tell your story through
+our digital media and
+hard copy print
+channels...</p></td>
+</tr>
+
+<tr align ="center">
+  <td colspan="2"><a [routerLink]="['/benefits']" class="button fancy-button">BENEFITS OF ADVERTISING WITH ESWATINI PROPERTY REVIEW</a></td>
+<td><a [routerLink]="['/readchar']" class="button fancy-button">Readership Characteristics</a></td>
+</tr>
+    
+<tr>
+<td><a [routerLink]="['/readtm']" class="button fancy-button">Readership Target Market</a></td>
+<td><a [routerLink]="['/rates']" class="button fancy-button">Advertising Rates</a></td>
+<td><a href="http://bit.ly/EswatiniPropertyReviewVol1-Issue1">Download our complete rate cut</a></td>
+</tr>
+
+<tr>
+<td colspan="2"><label>To advertise with us please fill in your information and attach your proof of payment and artwork below. Banking Details FNB Eswatini │ Account Name: Rasper Media (PTY) LTD
+Account No.: 627 4072 6792 │ Branch Code: 280 164</label></td>
+</tr>
+
+<tr>
+  <td><label for="nameandsurname">
+    Name
+    </label></td>
+    <td><input id="nameandsurname" type="text" formControlName="nameandsurname" ></td>
+</tr>
+
+<tr>
+  <td><label for="Eaddress">
+    Email Address
+    </label></td>
+  <td><input id="Eaddress" type="text" formControlName="Eaddress"></td>
+</tr>
+
+<tr>
+  <td><label for="artw">
+    Artwork
+    </label></td
+  ><td><input id="artw" type="file" formControlName="artw"></td>
+</tr>
+
+<tr>
+  <td><label for="POP">
+    Proof Of Payment
+    </label></td>
+  <td><input id="POP" type="file" formControlName="POP"></td>
+</tr>
+
+<tr>
+  <td colspan="2"><button class="button" type="submit">Submit</button></td>
+</tr>
+
+</table>
+</form>
+
+
