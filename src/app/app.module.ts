@@ -83,12 +83,10 @@ const appRoutes: Routes = [
       { path: 'benefits', component: BenefitsComponent },
       { path: 'rates', component: RatesComponent },
       { path: 'sections', component: SectionsComponent },
+      
       { path: '**', component: PageNotFoundComponent },
       { path: '',   redirectTo: '/sections', pathMatch: 'full' },
-      { path: 'deeds', component: DeedsComponent },
-      { path: 'remax', component: RemaxComponent },
-      { path: 'hinsure', component: HinsureComponent },
-      { path: 'swaprop', component: SwapropComponent },
+      
       { path: 'housef', component: HousefComponent },
     ])
   ],
