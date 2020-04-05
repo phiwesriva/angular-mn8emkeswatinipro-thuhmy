@@ -41,7 +41,7 @@ const appRoutes: Routes = [
   {
     path: 'comm',
     component: ResiComponent,
-    data: { title: 'Heroes List' }
+    data: { title: 'Residential' }
   },
   { path: '',
     redirectTo: '/comm',

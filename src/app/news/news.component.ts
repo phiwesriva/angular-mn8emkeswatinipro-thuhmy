@@ -15,7 +15,7 @@ images = ['https://raw.githubusercontent.com/phiwesriva/angular-mn8emkeswatinipr
     config.interval = 1500;
     config.wrap = false;
     config.keyboard = false;
-    config.pauseOnHover = false;
+    config.pauseOnHover = true;
     config.wrap = true;
   }
   products = products;

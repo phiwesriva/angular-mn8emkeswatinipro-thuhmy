@@ -28,7 +28,7 @@ table.center {
   }
 
 img {
-  max-width: 100%;
+max-width: 100%;
   height: auto;
 
   /*border: 1px solid #ddd;*/
@@ -79,6 +79,7 @@ p {
 
 a {
   cursor: pointer;
+  cursor: hand;
   color: #1976d2;
   text-decoration: none;
 }
@@ -151,6 +152,12 @@ height: auto;
   justify-content: space-between;
   align-items: center;
 }
+
+app-sections h2
+ {
+  color: #d2a719;
+  margin: 0;
+}
 app-footer {
 width: 100%;
 height: auto;
@@ -174,8 +181,8 @@ height: auto;
   align-items: center;
 }
 
-app-top-bar h1 {
-  color: rgb(252, 63, 6);
+app-top-bar h2 {
+  color: #d2a719;
   margin: 0;
 }
 
@@ -194,6 +201,26 @@ app-top-bar h1 {
   background-color: rgb(245, 226, 226);
 }
 
+/* Navigation link styles
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: #607D8B;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #CFD8DC;
+}
+nav a.active {
+  color: #039be5;
+}*/
 
 /*
 Copyright Google LLC. All Rights Reserved.
