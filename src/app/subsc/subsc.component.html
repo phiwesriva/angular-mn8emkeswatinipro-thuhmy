@@ -3,22 +3,15 @@
 <table class="center" style="width:100%">
  
   <tr align ="center">
-    <td colspan="2" ><img src="https://raw.githubusercontent.com/phiwesriva/angular-mn8emkeswatinipro-e6w3hm/master/src/assets/subscribe2.png" width="100%"  height="auto"></td>
-  </tr>
-
-  <tr align="center">
-    <th colspan="2"><h2>Subscribe!!!!</h2></th>
- </tr>
+    
+    <td colspan="2"><h2>Subscribe!!!!</h2>
+ 
 <!--<h2>2020 ESWATINI PROPERTY REVIEW SUBSCRIPTION FORM</h2>-->
-<tr align="center">
-  <td colspan="2"><p><label for="Price"> Price per annum:</label> E300 including delivery <label for="frequency">Frequency:</label> Every Two Months Number of copies per annum:  6  
-   <label for="package">Package includes:</label> Eswatini Property Review Print x 6, Online Edition, Podcasts and Newsletters</p><p><label>Banking Details FNB Eswatini │ Account Name: Rasper Media (PTY) LTD Account No.: 627 4072 6792 │ Branch Code: 280 164</label></p></td>
-</tr>
-
-<tr align="center">
-  <td colspan="2"><label for="additional">
-    For an additional E99  once off you get Insights every four months,make yyour selection below
-</label></td>
+<label for="Price"> Price per annum:</label> E300 including delivery <label for="frequency">Frequency:</label> Every Two Months Number of copies per annum:  6  
+   <label for="package">Package includes:</label> Eswatini Property Review Print x 6, Online Edition, Podcasts and Newsletters<label>Banking Details FNB Eswatini │ Account Name: Rasper Media (PTY) LTD Account No.: 627 4072 6792 │ Branch Code: 280 164</label>
+   For an additional E99  once off you get Insights every four months,make your selection below
+</td>
+<td colspan="2" ><img src="https://raw.githubusercontent.com/phiwesriva/angular-mn8emkeswatinipro-e6w3hm/master/src/assets/subscribe2.png" width="40%"  height="auto"></td>
 </tr>
 
 <!--<label for="insights">
@@ -29,7 +22,7 @@ Insights(Research)
   <option value="0">Please select</option>
 <option value="99">Insights(Research)</option>
 </select></td>
-</tr>
+
 
 <!--
 <p>
@@ -40,7 +33,7 @@ Insights(Research)
   <!-- <label for="copiesperissue">
       Select number of copies per issue
     </label>-->
-<tr align="center">
+
   <td colspan="2"><select matNativeControl required id="copiesperissue">
 <option value="0">Select number of copies per issue</option>
 <option value="300">1 copy per issue</option>
@@ -66,57 +59,43 @@ Insights(Research)
   </select></td>
 </tr>
 
-<tr align="center"><td colspan="2">Your total is going to be = E <output name="x" for="insights copiesperissue"></output></td>
+<tr align="center"><td colspan="4">Your total is going to be = E <output name="x" for="insights copiesperissue"></output></td>
+</tr>
+<tr>
+<td><label for="nameandsurname">Name</label></td>
+<td><input id="nameandsurname" type="text" formControlName="nameandsurname"></td>
+<td><label for="Cname">Company Name(If applicable)</label></td>
+<td><input id="Cname" type="text" formControlName="Cname"></td>
 </tr>
 
-<tr align="center"><td><label for="nameandsurname">
-      Name
-    </label></td><td>
-    <input id="nameandsurname" type="text" formControlName="nameandsurname"></td>
-</tr>
-
-<tr align="center">
-  <td><label for="Cname">Company Name(If applicable)</label></td>
-  <td><input id="Cname" type="text" formControlName="Cname"></td>
-</tr>
-
-<tr align="center">
-  <td><label for="address">Address</label></td> 
-  <td><input id="address" type="text" formControlName="address"></td>
+<tr>
+<td><label for="address">Address</label></td> 
+<td><input id="address" type="text" formControlName="address"></td>
+<td><label for="Tnumber">Tel Number </label></td>
+<td><input id="Tnumber" type="text" formControlName="Tnumber"></td>
 </tr>
 
 <tr align="center">
-  <td><label for="Tnumber">Tel Number </label></td>
-  <td><input id="Tnumber" type="text" formControlName="Tnumber"></td>
-</tr>
-
-<tr align="center"> 
-  <td><label for="Cnumber">Cell Number</label></td>
-  <td><input id="Cnumber" type="text" formControlName="Cnumber"></td>
+<td><label for="Cnumber">Cell Number</label></td>
+<td><input id="Cnumber" type="text" formControlName="Cnumber"></td>
+<td><label for="Eaddress">Email Address</label></td>
+<td><input id="Eaddress" type="text" formControlName="Eaddress"></td>
 </tr>
 
 <tr align="center">
-  <td><label for="Eaddress">Email Address</label></td>
-  <td><input id="Eaddress" type="text" formControlName="Eaddress"></td>
-</tr>
-
-<tr align="center">
-  <td><label for="DOB">Date of Birth yyyy-mm-dd(Password for online edition)</label></td>
+<td><label for="DOB">Date of Birth yyyy-mm-dd(Password for online edition)</label></td>
 <td><input id="DOB" type="text" formControlName="DOB"></td>
-</tr>
-
-<tr align="center">
-  <td><label for="Paddress">Postal Address</label></td>
-  <td><input id="Paddress" type="text" formControlName="Paddress"></td>
+<td><label for="Paddress">Postal Address</label></td>
+<td><input id="Paddress" type="text" formControlName="Paddress"></td>
 </tr>
 
 <tr align="center"> 
-  <td><label for="POP">Proof Of Payment</label></td>
+  <td ><label for="POP">Proof Of Payment</label></td>
   <td><input id="POP" type="file" formControlName="POP"></td>
 </tr>
 
 <tr align="center">
-  <td><button class="button" type="submit">Submit</button></td>
+  <td colspan="4"><button class="button" type="submit">Submit</button></td>
 </tr>
 
 </table>

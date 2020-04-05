@@ -20,7 +20,8 @@ contactForm;
       Tnumber: '',
       Cnumber: '',
       Eaddress: '',
-     Info: ''
+      areaofinterest: '',
+      Info: ''
 
 
     });}

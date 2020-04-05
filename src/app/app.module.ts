@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
@@ -30,7 +31,24 @@ import { ReadcharComponent } from './readchar/readchar.component';
 import { BenefitsComponent } from './benefits/benefits.component';
 import { RatesComponent } from './rates/rates.component';
 import { SectionsComponent } from './sections/sections.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
+
+
+const appRoutes: Routes = [
+  { path: 'comm', component: CommComponent },
+  { path: 'resi',      component: ResiComponent },
+  {
+    path: 'comm',
+    component: ResiComponent,
+    data: { title: 'Heroes List' }
+  },
+  { path: '',
+    redirectTo: '/comm',
+    pathMatch: 'full'
+  },
+  { path: '**', component: RatesComponent }
+];
 
 @NgModule({
   imports: [
@@ -60,6 +78,8 @@ import { SectionsComponent } from './sections/sections.component';
       { path: 'benefits', component: BenefitsComponent },
       { path: 'rates', component: RatesComponent },
       { path: 'sections', component: SectionsComponent },
+      { path: '**', component: PageNotFoundComponent },
+      { path: '',   redirectTo: '/sections', pathMatch: 'full' },
     ])
   ],
   declarations: [
@@ -88,11 +108,13 @@ import { SectionsComponent } from './sections/sections.component';
     BenefitsComponent,
     RatesComponent,
     SectionsComponent,
+    PageNotFoundComponent,
     
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
 })
+
 export class AppModule { }
 
 
