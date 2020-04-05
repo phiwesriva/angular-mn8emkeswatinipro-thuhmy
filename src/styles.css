@@ -141,6 +141,26 @@ label {
   /*padding-right: 1px;*/
 }
 
+
+app-header{
+width: 100%;
+height: auto;
+ padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+app-footer {
+width: 100%;
+height: auto;
+  background-color: #050505;
+  /*padding: 1px;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 /* Top Bar */
 
 app-top-bar {
