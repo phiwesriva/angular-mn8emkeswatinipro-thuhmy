@@ -19,9 +19,12 @@ body {
   border-spacing: 15px;
 }
 
+
+
  th, td {*/
  /* padding: 15px;*/
 /*}*/
+
 
 table.center {
     margin-left:auto; 
@@ -143,12 +146,19 @@ label {
   /*padding-right: 1px;*/
 }
 
+app-resi td{
+  text-align:left;
+  box-shadow: 0 0 2px 1px rgba(182, 181, 179, 0.5);
+  border-collapse: collapse;
+}
+
 app-resi{
   text-align:left;
-}
+  }
 
 app-comm{
   text-align:left;
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 app-header{
