@@ -149,7 +149,7 @@ label {
 app-resi td{
   text-align:left;
   box-shadow: 0 0 2px 1px rgba(182, 181, 179, 0.5);
-  border-collapse: collapse;
+  border-spacing: 50px;
 }
 
 app-resi{
