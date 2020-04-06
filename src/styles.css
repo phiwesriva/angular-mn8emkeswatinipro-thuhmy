@@ -13,6 +13,7 @@ body {
   text-align:center;
 }
 
+
 /*#table1 {
   border-collapse: separate;
   border-spacing: 15px;
@@ -142,6 +143,13 @@ label {
   /*padding-right: 1px;*/
 }
 
+app-resi{
+  text-align:left;
+}
+
+app-comm{
+  text-align:left;
+}
 
 app-header{
 width: 100%;

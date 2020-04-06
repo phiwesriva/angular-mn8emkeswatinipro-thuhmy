@@ -37,6 +37,8 @@ import { DeedsComponent } from './deeds/deeds.component';
 import { SwapropComponent } from './swaprop/swaprop.component';
 import { HousefComponent } from './housef/housef.component';
 import { HinsureComponent } from './hinsure/hinsure.component';
+import { CommdComponent } from './commd/commd.component';
+import { ResidComponent } from './about/resid/resid.component';
 
 
 
@@ -87,10 +89,13 @@ const appRoutes: Routes = [
       { path: 'remax', component: RemaxComponent },
       { path: 'hinsure', component: HinsureComponent },
       { path: 'swaprop', component: SwapropComponent },
+      { path: 'housef', component: HousefComponent },
+      { path: 'commd', component: CommdComponent },
+      { path: 'resid', component: ResidComponent },
       { path: '**', component: PageNotFoundComponent },
       { path: '',   redirectTo: '/sections', pathMatch: 'full' },
       
-      { path: 'housef', component: HousefComponent },
+      
     ])
   ],
   declarations: [
@@ -125,6 +130,8 @@ const appRoutes: Routes = [
     SwapropComponent,
     HousefComponent,
     HinsureComponent,
+    CommdComponent,
+    ResidComponent,
     
   ],
   bootstrap: [ AppComponent ],
