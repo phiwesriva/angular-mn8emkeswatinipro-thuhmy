@@ -21,7 +21,7 @@
   </tr>
 
 <td><label for="Search">Search</label></td>
-  <td><input id="Search" type="text" formControlName="Search"></td></tr>-->
+  <td><input id="Search" type="text" formControlName="Search"></td></tr>
   
 <tr align="center">
 <td><a [routerLink]="['/sections']" class="button fancy-button"><i class="material-icons">menu</i></a></td>
@@ -36,9 +36,29 @@
 <a [routerLink]="['/free']" class="button fancy-button">Free Downloads</a></td>
 <td>
 <a [routerLink]="['/free']" class="button fancy-button">About us</a></td>
--->
+
 </tr>
-</table>
+</table>-->
+
+<ul class="topnav">
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn"><i class="material-icons">menu</i></a>
+    <div class="dropdown-content">
+      <a [routerLink]="['/resi']"><h2>Residential News</h2></a>
+<a [routerLink]="['/comm']"><h2>Commercial News</h2></a>
+<a [routerLink]="['/landl']"><h2>Industrial News</h2></a>
+<a [routerLink]="['/inter']"><h2>Lifestyle and Leisure</h2></a>
+<a [routerLink]="['/inter']"><h2>International News</h2></a>
+<a [routerLink]="['/inter']"><h2>Legal</h2></a>
+    </div>
+  </li>
+<li><a [routerLink]="['/news']" class="button fancy-button"><h2>NEWS</h2></a></li>
+<li><a [routerLink]="['/podcast']" class="button fancy-button"><h2>PODCASTS</h2></a></li>
+<li><a [routerLink]="['/advert']" class="button fancy-button"><h2>ADVERTISE</h2></a></li>
+<li><a [routerLink]="['/subsc']" class="button fancy-button"><h2>SUBSCRIBE</h2></a></li>
+<li><a [routerLink]="['/contact']" class="button fancy-button"><h2>CONTACT US</h2></a></li>
+<li><a [routerLink]="['/cart']" class="button fancy-button"><i class="material-icons">shopping_cart</i></a></li>
+ </ul> 
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.
