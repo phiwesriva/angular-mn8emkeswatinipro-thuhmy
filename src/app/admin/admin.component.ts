@@ -8,11 +8,11 @@ import { Post } from '../models/post.model';
   styleUrls: ['./admin.component.css']
 })
 export class AdminComponent implements OnInit {
-form-group;
+formgroup;
 
   constructor(
     private formBuilder: FormBuilder,
-  ) {this.form-group = this.formBuilder.group({
+  ) {this.formgroup = this.formBuilder.group({
       Title: '',
       Description: ''
     });
@@ -24,7 +24,7 @@ form-group;
   onSubmit(customerData) {
     // Process checkout data here
         window.alert('Your Story is published ');
-    this.form-group.reset();
+    this.formgroup.reset();
 
     console.warn('Your order has been submitted', customerData);
   }
