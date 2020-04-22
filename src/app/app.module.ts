@@ -39,7 +39,6 @@ import { HousefComponent } from './housef/housef.component';
 import { HinsureComponent } from './hinsure/hinsure.component';
 import { CommdComponent } from './commd/commd.component';
 import { ResidComponent } from './about/resid/resid.component';
-import { AdminComponent } from './admin/admin.component';
 
 
 
@@ -93,7 +92,6 @@ const appRoutes: Routes = [
       { path: 'housef', component: HousefComponent },
       { path: 'commd', component: CommdComponent },
       { path: 'resid', component: ResidComponent },
-      { path: 'admin', component: AdminComponent },
       { path: '**', component: PageNotFoundComponent },
       { path: '',   redirectTo: '/sections', pathMatch: 'full' },
       
@@ -134,7 +132,6 @@ const appRoutes: Routes = [
     HinsureComponent,
     CommdComponent,
     ResidComponent,
-    AdminComponent,
     
   ],
   bootstrap: [ AppComponent ],

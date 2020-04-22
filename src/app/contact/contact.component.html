@@ -1,5 +1,5 @@
 <form [formGroup]="contactForm" (ngSubmit)="onSubmit(contactForm.value)">
-<table class="center" style="width:100%" layout-align="center center">
+<table id="t03" class="center" style="width:100%" layout-align="center center">
 <tr align ="center">
   <th colspan="4" width="500" height="10"><h1>We Would Like To From You</h1></th>
 </tr>
@@ -11,6 +11,8 @@
 <tr>
   <td><label for="nameandsurname">Name</label></td>
   <td><input id="nameandsurname" type="text" formControlName="nameandsurname"></td>
+</tr>
+<tr>
   <td><label for="Cname">Company Name(If applicable)</label></td>
   <td><input id="Cname" type="text" formControlName="Cname"></td>
 </tr>
@@ -18,6 +20,9 @@
 <tr>
   <td><label for="Tnumber">Tel Number</label></td>
   <td><input id="Tnumber" type="tel" formControlName="Tnumber"></td>
+
+</tr>
+<tr>
   <td><label for="Cnumber">Cell Number</label></td>
   <td><input id="Cnumber" type="tel" formControlName="Cnumber" required></td>
 </tr>
@@ -25,6 +30,9 @@
 <tr>
   <td><label for="Eaddress">Email Address</label></td>
   <td><input id="Eaddress" type="email" formControlName="Eaddress"></td>
+</tr>
+<tr>
+
   <td><label for="areaofinterest">Area of interest</label></td>
   <td><select matNativeControl required id="areaofinterest">
 <option >Area of interest</option>
@@ -41,11 +49,12 @@
 
 <tr>
   <td colspan="4"><button class="button" type="submit">SUBMIT</button></td></tr>
-<tr>
-  <td colspan="4"><label for="name">Our Address</label>Raspers Media (PTY) LTD No: 302, Upper Deck, Corporate Place Mbabane<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3575.987264397963!2d31.138838715032584!3d-26.326911883383474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ee8ceef406d4171%3A0xc303bdc7759f8d8e!2sCorporate%20Place!5e0!3m2!1sen!2snz!4v1585689757212!5m2!1sen!2snz" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><td>
-  </tr>
-</table>
+  </table>
 </form>
+
+  <label for="name">Our Address</label>Raspers Media (PTY) LTD No: 302, Upper Deck, Corporate Place Mbabane<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3575.987264397963!2d31.138838715032584!3d-26.326911883383474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ee8ceef406d4171%3A0xc303bdc7759f8d8e!2sCorporate%20Place!5e0!3m2!1sen!2snz!4v1585689757212!5m2!1sen!2snz" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+ 
+
 
 
 
