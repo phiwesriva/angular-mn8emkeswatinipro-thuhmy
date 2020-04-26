@@ -1,11 +1,33 @@
 <form [formGroup]="contactForm" (ngSubmit)="onSubmit(contactForm.value)">
 <table id="t03" class="center" style="width:100%" layout-align="center center">
-<tr align ="center">
-  <td colspan="4" width="500" height="10"><h1>We Would Like To From You</h1></td>
+  <tr>
+  <th colspan="2">
+    <ul class="topnav">
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn"><i class="material-icons">menu</i></a>
+    <div class="dropdown-content">
+      <a [routerLink]="['/resi']"><h2>Residential News</h2></a>
+<a [routerLink]="['/comm']"><h2>Commercial News</h2></a>
+<a [routerLink]="['/landl']"><h2>Industrial News</h2></a>
+<a [routerLink]="['/inter']"><h2>Lifestyle and Leisure</h2></a>
+<a [routerLink]="['/inter']"><h2>International News</h2></a>
+<a [routerLink]="['/inter']"><h2>Legal</h2></a>
+    </div>
+  </li>
+<li><a [routerLink]="['/news']" class="button fancy-button"><h2>NEWS</h2></a></li>
+<li><a [routerLink]="['/podcast']" class="button fancy-button"><h2>PODCASTS</h2></a></li>
+<li><a [routerLink]="['/advert']" class="button fancy-button"><h2>ADVERTISE</h2></a></li>
+<li><a [routerLink]="['/subsc']" class="button fancy-button"><h2>SUBSCRIBE</h2></a></li>
+<li><a [routerLink]="['/contact']" class="button fancy-button"><h2>CONTACT US</h2></a></li>
+<li><a [routerLink]="['/cart']" class="button fancy-button"><i class="material-icons">shopping_cart</i></a></li>
+ </ul> </th></tr>
+
+<tr>
+  <td colspan="2"><h1>We Would Like To From You</h1></td>
 </tr>
 
 <tr>
-  <td colspan="4"><p> <label for="email">Email :</label> ntokozo@raspermedia.com <label for="cell">Cell :</label> +268 7661 8219 / 7675 657</p></td>
+  <td colspan="2"><p> <label for="email">Email :</label> ntokozo@raspermedia.com <label for="cell">Cell :</label> +268 7661 8219 / 7675 657</p></td>
 </tr>
 
 <tr>
@@ -48,11 +70,11 @@
   </tr>
 
 <tr>
-  <td colspan="4"><button class="button" type="submit">SUBMIT</button></td></tr>
+  <td colspan="2"><button class="button" type="submit">SUBMIT</button></td></tr>
   </table>
 </form>
 
-  <label for="name">Our Address</label>Raspers Media (PTY) LTD No: 302, Upper Deck, Corporate Place Mbabane<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3575.987264397963!2d31.138838715032584!3d-26.326911883383474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ee8ceef406d4171%3A0xc303bdc7759f8d8e!2sCorporate%20Place!5e0!3m2!1sen!2snz!4v1585689757212!5m2!1sen!2snz" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  <label for="name">Our Address</label>Raspers Media (PTY) LTD No: 302, Upper Deck, Corporate Place Mbabane<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3575.987264397963!2d31.138838715032584!3d-26.326911883383474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ee8ceef406d4171%3A0xc303bdc7759f8d8e!2sCorporate%20Place!5e0!3m2!1sen!2snz!4v1585689757212!5m2!1sen!2snz" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
  
 
 
