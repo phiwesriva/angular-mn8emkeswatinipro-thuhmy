@@ -139,6 +139,11 @@ label {
   opacity: 0.8;
   font-weight: bold;
   }
+th {
+  padding-top: 2px;
+  text-align: left;
+  background-color: black;
+  color: white;}
 
 .button:disabled, button:disabled {
   opacity: 0.5;
@@ -318,7 +323,7 @@ ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: visible;
   background-color: #050505;
 }
 
@@ -368,7 +373,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: #d2a719;
+  background-color: black;
 }
 
 li.dropdown {
@@ -480,49 +485,7 @@ nav a:hover {
 nav a.active {
   color: #039be5;
 }
-/****************************************************************************/
-li {
- display: block;
- transition-duration: 0.5s;
-}
 
-li:hover {
-  cursor: pointer;
-}
-
-ul li ul {
-  visibility: hidden;
-  opacity: 0;
-  position: absolute;
-  transition: all 0.5s ease;
-  margin-top: 1rem;
-  left: 0;
-  display: none;
-}
-
-ul li:hover > ul,
-ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-}
-
-ul li ul li {
-  clear: both;
-  width: 100%;
-}
-
-ul li:hover > ul,
-ul li:focus-within > ul,
-ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-}
-a:hover,
-a:focus {
-  ...
-}
 
 /*
 Copyright Google LLC. All Rights Reserved.
