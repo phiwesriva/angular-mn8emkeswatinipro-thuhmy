@@ -3,7 +3,19 @@
 <td>
 <a [routerLink]="['/free']" class="button fancy-button">About us</a></td>
 -->
-
+<nav role="navigation">
+  <ul>
+    <li><a href="#">One</a></li>
+    <li><a href="#">Two</a>
+      <ul class="dropdown">
+        <li><a href="#">Sub-1</a></li>
+        <li><a href="#">Sub-2</a></li>
+        <li><a href="#">Sub-3</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Three</a></li>
+  </ul>
+</nav>
 
 <div *ngFor="let product of products; index as productId">
 <table class="center" style="width:100%">
