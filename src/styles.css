@@ -307,7 +307,7 @@ app-top-bar h2 {
 /* Container */
 .container {
   position: relative;
-  /*max-width: 800px; Maximum width */
+ /* max-width: 800px; Maximum width */
   margin: 0 auto; /* Center it */
   /*display: flex;*/
   /*flex-direction: row;*/
