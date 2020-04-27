@@ -103,6 +103,13 @@ a:hover h3 {
   text-decoration-color: red;
 }
 
+app-resi a
+{
+  cursor: pointer;
+  cursor: hand;
+  color: #444242;
+}
+
 /* Input */
 
 input {
@@ -183,9 +190,8 @@ app-resi h3 {
   margin: 0;
 }
 
-app-resi h2, app-resi p  {
-  color: #f1f1f1;
-  margin: 0;
+app-resi a{
+color: #f1f1f1;
 }
 
 app-resi{
@@ -197,9 +203,8 @@ app-comm{
   text-align:left;
   /*box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);*/
 }
-app-comm h2, app-comm p  {
-  color: #f1f1f1;
-  margin: 0;
+app-comm a  {
+color: #f1f1f1;
 }
 app-comm h3 {
   color: #d2a719;
@@ -245,9 +250,7 @@ align-items: center;
 /* Sections */
 app-sections h2
  {
-  color: #d2a719;
-  margin: 0;
-}
+ }
 
 /* Footer */
 app-footer {
@@ -347,17 +350,17 @@ ul.topnav li.right {float: right;}
   ul.topnav li.right, 
   ul.topnav li {float: none;}
 }
-
+/*
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky; /* Safari 
   position: sticky;
   top: 0;
-}
+}*/
 
 
 li {
@@ -404,47 +407,47 @@ li.dropdown {
   display: block;
 }
 
-
+/*
  The Overlay (background)
 .overlay {
-  /* Height & width depends on how you want to reveal the overlay (see JS below)   */
+  /* Height & width depends on how you want to reveal the overlay (see JS below)   
   height: 100%;
   width: 0;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  position: fixed; /* Stay in place 
+  z-index: 1; /* Sit on top 
   left: 0;
   top: 0;
-  background-color: rgb(0,0,0); /* Black fallback color */
-  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  background-color: rgb(0,0,0); /* Black fallback color 
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity 
+  overflow-x: hidden; /* Disable horizontal scroll 
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) 
 }
 
-/* Position the content inside the overlay */
+/* Position the content inside the overlay 
 .overlay-content {
   position: relative;
-  top: 25%; /* 25% from the top */
-  width: 100%; /* 100% width */
-  text-align: center; /* Centered text/links */  
-  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  top: 25%; /* 25% from the top /
+  width: 100%; /* 100% width 
+  text-align: center; /* Centered text/links   
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens 
 }
 
-/* The navigation links inside the overlay */
+/* The navigation links inside the overlay 
 .overlay a {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
   color: #818181;
-  display: block; /* Display block instead of inline */ 
-  transition: 0.3s; /* Transition effects on hover (color) */ 
+  display: block; /* Display block instead of inline  
+  transition: 0.3s; /* Transition effects on hover (color) 
 }
 
-/* When you mouse over the navigation links, change their color   */
+/* When you mouse over the navigation links, change their color   
 .overlay a:hover, .overlay a:focus {
   color: #f1f1f1;
 }
 
-/* Position the close button (top right corner) */ 
+/* Position the close button (top right corner) 
 .overlay .closebtn {
   position: absolute;
   top: 20px;
@@ -452,7 +455,7 @@ li.dropdown {
   font-size: 60px;
 }
 
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */  
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap   
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
   .overlay .closebtn {
@@ -462,10 +465,10 @@ li.dropdown {
   }
 }
 
-/* Open when someone clicks on the span element */
+ Open when someone clicks on the span element */
 
 
-/* Navigation link styles */
+/* Navigation link styles
 nav a {
   padding: 5px 10px;
   text-decoration: none;
@@ -485,7 +488,7 @@ nav a:hover {
 nav a.active {
   color: #039be5;
 }
-
+*/
 
 /*
 Copyright Google LLC. All Rights Reserved.
