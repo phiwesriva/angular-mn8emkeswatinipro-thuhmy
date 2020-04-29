@@ -53,8 +53,8 @@ img:hover {
   align-items: center;
 }*/
 
-router-outlet + *  {
-  padding: 0 16px;
+/*router-outlet + *  {
+  padding: 0 6px;
 }
 
 .carousel-control-prev:hover{
@@ -118,7 +118,9 @@ input {
   border-radius: 2px;
   padding: 8px;
   margin-bottom: 16px;
-  border: 1px solid rgb(104, 102, 102);
+  /*border: 1px solid rgb(104, 102, 102);*/
+  border: 1px solid #d2a719;
+  
 }
 
 label {
@@ -244,7 +246,7 @@ height: auto;
 /*padding: 5px;*/
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+/*justify-content: space-between;*/
 align-items: center;
 }
 
@@ -307,10 +309,10 @@ app-top-bar h2 {
 /* Container */
 .container {
   position: relative;
- /* max-width: 800px; Maximum width */
+  max-width: 900px; /*Maximum width */ 
   margin: 0 auto; /* Center it */
   /*display: flex;*/
-  /*flex-direction: row;*/
+  /*flex-direction: row;*/ 
   align-items: center;
 
 }
@@ -411,6 +413,8 @@ li.dropdown {
   display: block;
 }
 
+html{
+overflow-y: scroll;}
 /*
  The Overlay (background)
 .overlay {
