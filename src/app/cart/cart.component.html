@@ -4,10 +4,7 @@
   <a routerLink="/shipping">Delivery Prices</a>
 </p>-->
  
-<div class="cart-item" *ngFor="let item of items">
-  <span>{{ item.name }}</span>
-  <span>{{ item.price | currency: 'E'  }}</span>
-</div>
+
 
 <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)" >
 <table id="t03" class="center" style="width:100%" layout-align="center center">
@@ -32,7 +29,10 @@
 <li><a [routerLink]="['/contact']" class="button fancy-button"><h2>CONTACT US</h2></a></li>
 <li><a [routerLink]="['/cart']" class="button fancy-button"><i class="material-icons">shopping_cart</i></a></li>
  </ul> </th></tr>
-
+<div class="cart-item" *ngFor="let item of items">
+  <span>{{ item.name }}</span>
+  <span>{{ item.price | currency: 'E'  }}</span>
+</div>
 <tr>
     <td colspan="2"><h1>Shopping Basket</h1></td>
 </tr>

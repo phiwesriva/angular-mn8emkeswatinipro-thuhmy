@@ -26,7 +26,8 @@ insights = new FormControl('');
       Eaddress: '',
       DOB: '',
       Paddress: '',
-      POP: ''
+      POP: '',
+      Queries: ''
     });}
 
   ngOnInit() {

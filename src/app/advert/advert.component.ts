@@ -17,7 +17,8 @@ export class AdvertComponent implements OnInit {
       nameandsurname: '',
       Eaddress: '',
       artw: '',
-      POP: ''
+      POP: '',
+      Queries: ''
     });
     
     }
